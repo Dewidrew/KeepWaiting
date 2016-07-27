@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">KeepWalking</string>
+    <string name="crime_title_label">Title</string>
+    <string name="crime_title_hint">Enter a title of crime</string>
+    <string name="save_btn">Save</string>
+</resources>

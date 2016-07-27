@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="4dp"
+    android:paddingRight="4dp"
+    android:paddingLeft="4dp"
+    android:paddingBottom="10dp"
+    android:orientation="vertical"
+    style="?android:listSeparatorTextViewStyle">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_item_walking_title_text_view"
+        android:textStyle="bold"
+        android:padding="6dp"
+        tools:text="Title"
+        android:textSize="20dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/list_item_walking_date_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:text="Date"/>
+
+</LinearLayout>
